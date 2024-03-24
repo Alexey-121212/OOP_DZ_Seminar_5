@@ -19,7 +19,7 @@ public class Table {
         return reservations;
     }
 
-    public Table() {
+    public Table(){
         no = ++counter;
     }
 

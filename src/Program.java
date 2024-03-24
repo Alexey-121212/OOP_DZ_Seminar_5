@@ -19,6 +19,7 @@ public class Program {
         BookingPresenter presenter = new BookingPresenter(model, view);
         presenter.updateTablesView();
         view.reservationTable(new Date(), 2, "Станислав");
+        System.out.println("Перебронируем столик");
         view.changeReservationTable(1001, new Date(), 4, "Станислав");
 
     }

@@ -12,4 +12,6 @@ public interface View {
 
     void showReservationTableResult(int reservationNo);
 
+    void printChangeReservationTableResult(int reservationNo);
+
 }
